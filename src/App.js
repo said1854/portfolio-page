@@ -1,12 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+
 
 function App() {
   return (
     <div>
-    <h1 className="text-9xl font-bold">
-      Hello world!
-    </h1>
+      <Navbar />
+      <Home />
     </div>
   );
 }
