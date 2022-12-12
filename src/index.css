@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Martian+Mono&display=swap');
 @layer base {
     body{
         @apply font-[Dosis];
@@ -11,5 +10,8 @@
     li {
         @apply px-4;
         @apply cursor-pointer;
+    }
+    h1, p{
+        @apply font-[Martian-Mono]
     }
 }

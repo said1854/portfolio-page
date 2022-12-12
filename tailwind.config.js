@@ -5,10 +5,10 @@ module.exports = {
   ],
   theme: {
     colors: {
-      color1: '#ececec',
-      color2: '#9fd3c7',
-      color3: '#385170',
-      color4: '#142d4c'
+      color1: '#defcf9',
+      color2: '#cadefc',
+      color3: '#c3bef0',
+      color4: '#cca8e9'
     }
   },
   plugins: [],
